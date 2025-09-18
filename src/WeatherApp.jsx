@@ -25,6 +25,7 @@ export default function WeatherApp(){
     return (
         <div style={{textAlign:"center"}}>
             <WebNav />
+            <br />
             <h1>Weatherly App</h1>
             <SearchBox updateInfo={updateInfo} />
             <InfoBox info={weatherInfo} />
